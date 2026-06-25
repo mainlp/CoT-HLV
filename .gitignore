@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local data, model caches, and generated experiment artifacts.
+data/
+outputs/
+checkpoints/
+models/
+*.jsonl
+!examples/*.jsonl
+*.pkl
+*.pt
+*.safetensors
+*.zip
+
+# Notebook execution artifacts.
+.ipynb_checkpoints/

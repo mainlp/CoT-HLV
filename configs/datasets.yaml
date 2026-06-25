@@ -1,0 +1,13 @@
+datasets:
+  mnli:
+    file: chaosNLI_mnli_m.jsonl
+    options: [A, B, C]
+    labels: [entailment, neutral, contradiction]
+  snli:
+    file: chaosNLI_snli.jsonl
+    options: [A, B, C]
+    labels: [entailment, neutral, contradiction]
+  anli:
+    file: chaosNLI_alphanli.jsonl
+    options: [A, B]
+    labels: [hypothesis_a, hypothesis_b]
