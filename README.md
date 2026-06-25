@@ -139,6 +139,24 @@ scripts/        Command-line entry points
 src/cot_hlv/    Reusable Python package
 ```
 
+## Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{DBLP:journals/corr/abs-2601-03154,
+  author       = {Beiduo Chen and Tiancheng Hu and Caiqi Zhang and Robert Litschko and Anna Korhonen and Barbara Plank},
+  title        = {Decoupling the Effect of Chain-of-Thought Reasoning: {A} Human Label Variation Perspective},
+  journal      = {CoRR},
+  volume       = {abs/2601.03154},
+  year         = {2026},
+  url          = {https://doi.org/10.48550/arXiv.2601.03154},
+  doi          = {10.48550/ARXIV.2601.03154},
+  eprinttype   = {arXiv},
+  eprint       = {2601.03154}
+}
+```
+
 ## Notes
 
 - Large-model inference is compute intensive. The paper used multi-GPU inference
